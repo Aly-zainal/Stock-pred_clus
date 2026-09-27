@@ -33,5 +33,3 @@ if st.button('Prediksi Klaster'):
         st.warning('Titik data ini diklasifikasikan sebagai *noise* (bukan bagian dari klaster manapun).')
     else:
         st.success(f'Titik data ini termasuk dalam Klaster: {predicted_cluster[0]}')
-
-    st.write("\n--- Untuk menjalankan aplikasi Streamlit ini:\n1. Simpan kode di atas sebagai `app.py` di lingkungan lokal Anda.\n2. Buka terminal di direktori yang sama.\n3. Jalankan perintah: `streamlit run app.py`")
